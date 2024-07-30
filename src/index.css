@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #C7CCD2;
+  transition-duration: 200ms;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 100vh;
+  padding: 2em;
+}
